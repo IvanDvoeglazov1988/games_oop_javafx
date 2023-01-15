@@ -17,7 +17,7 @@ class BishopBlackTest {
     }
 
     @Test
-    void whenСopyToCopyDest() {
+    void whenToDest() {
         BishopBlack bishopBlack = new BishopBlack(Cell.C1);
         Figure figure = bishopBlack.copy(Cell.A3);
         assertThat(figure.position()).isEqualTo(Cell.A3);
