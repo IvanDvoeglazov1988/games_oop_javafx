@@ -3,9 +3,7 @@ package ru.job4j.puzzle;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
-
 public class WinTest {
-
     @Test
     public void whenVerticalWin() {
         int[][] board = {
