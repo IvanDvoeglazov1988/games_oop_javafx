@@ -5,6 +5,7 @@ import static org.assertj.core.api.Assertions.*;
 
 
 public class WinTest {
+
     @Test
     public void whenVerticalWin() {
         int[][] board = {
